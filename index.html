@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./style.css" rel="stylesheet" />
+    <link rel="icon" href="./assets/icon_clock.png" type="image/x-icon" />
+    <title>CLOCK</title>
+  </head>
+  <body>
+    <div id="board" class="board">
+      <header id="header" class="header">
+        <div id="headLine" class="headLine">
+          <h2 id="headLineText" class="headLineText">Clock</h2>
+        </div>
+        <div id="dateLine" class="dateLine">
+          <div id="dateLineText" class="dateLineText"></div>
+        </div>
+        <div id="digClockLine" class="digClockLine">
+          <div id="digClockLineText" class="digClockLineText">Loading...</div>
+        </div>
+      </header>
+
+      <div id="analClockLine" class="analClockLine">
+        <div id="secondsPointer" class="secondsPointer pointer"></div>
+        <div id="minutesPointer" class="minutesPointer pointer"></div>
+        <div id="hoursPointer" class="hoursPointer pointer"></div>
+      </div>
+    </div>
+    <script src="code.js"></script>
+  </body>
+</html>
