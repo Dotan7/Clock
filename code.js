@@ -22,7 +22,7 @@ const getDDMMYYYYformat = () => {
   //   console.log("MM: ", MM)
   //   console.log("DD: ", DD)
 
-  const DDMMYYYY = DD + "/" + MM + "/" + yyyy
+  const DDMMYYYY = DD + "." + MM + "." + yyyy
   // console.log("DDMMYYYY: ", DDMMYYYY)
 
   return DDMMYYYY
@@ -64,6 +64,3 @@ const timeUpdate = () => {
   }, 1000)
 }
 timeUpdate()
-console.log("aaa")
-
-// /////////////////////

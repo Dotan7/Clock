@@ -14,24 +14,26 @@ body {
   text-align: center;
   /* justify-content: center; */
   align-items: center;
-  background-color: rgb(255, 255, 255);
+  /* background-color: rgb(216, 85, 85); */
+  /* background-color: rgb(255, 255, 255); */
   /* background-color: rgb(49, 127, 237); */
 }
 .header {
   display: flex;
   flex-direction: column;
+  /* background-color: rgb(112, 237, 49); */
   /* background-color: rgb(49, 127, 237); */
   width: 100%;
   /* justify-content: center; */
   /* align-items: center; */
-  height: 10%;
+  height: 16%;
 }
 .headLine,
 .digClockLine,
 .dateLine {
   /* background-color: rgb(132, 255, 0); */
   margin: 0%;
-  height: 50%;
+  height: 33%;
   display: flex;
   justify-content: center;
   align-items: center;
